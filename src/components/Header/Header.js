@@ -9,7 +9,7 @@ import '../../pages/style.css';
 function Header() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
+  let logotext = '{J:G}'
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -28,7 +28,7 @@ function Header() {
 
 
       <Navbar.Brand className='logotext' as={Link} to='/'>
-        <div className='logo'></div>
+        <div className='logo'><span>{logotext}</span></div>
       </Navbar.Brand>
 
       <Navbar.Toggle className='navbar-toggler' aria-controls="responsive-navbar-nav"
@@ -40,11 +40,9 @@ function Header() {
         <span></span>
         <span></span>
       </Navbar.Toggle>
-      <Navbar.Collapse id="responsive-navbar-nav" className='responsive-navbar'>
+      <Navbar.Collapse>
 
         <Nav className="ms-auto" defaultActiveKey="#home">
-
-
           <Nav.Item>
             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Home </Nav.Link>
           </Nav.Item>

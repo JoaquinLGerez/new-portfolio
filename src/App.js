@@ -49,11 +49,7 @@ function App() {
 
   return (
     <div className="App">
-      <motion.div
-        className="cursor"
-        variants={variants}
-        animate="default"
-      />
+   
       <Router>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>

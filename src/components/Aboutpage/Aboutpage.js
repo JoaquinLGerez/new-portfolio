@@ -17,16 +17,15 @@ function Aboutpage() {
                                 <h3>Skills</h3>
                                 <Col md={7}>
                                     <li>HTML5/CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootsrap 5</li>
+                                    <li>React</li>
+                                    <li>TypeScript</li>
+                                    <li>Node</li>
                                 </Col>
                                 <Col md={5}>
-                                    <li>React Js</li>
-                                    <li>Redux Js</li>
-                                    <li>React-Bootsrap</li>
-                                    <li>Material-ui</li>
-                                    <li>Git/Github</li>
+                                    <li>Python</li>
+                                    <li>Django</li>
+                                    <li>Docker</li>
+                                    <li>Github</li>
                                 </Col>
                             </Row>
                         </ul>
